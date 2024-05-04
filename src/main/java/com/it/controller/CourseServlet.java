@@ -28,6 +28,7 @@ public class CourseServlet extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         String name = req.getParameter("username");
         String password = req.getParameter("password");
+        System.out.println("hello git-01");
         if("张三".equals(name)&&"123".equals(password)){
             req.setAttribute("name",name);
             req.setAttribute("password",password);
