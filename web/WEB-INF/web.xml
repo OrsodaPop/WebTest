@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!--servlet与servlet-mapping标签需同时使用-->
+    <!--创建servlet标签-->
+<!--    <servlet>-->
+<!--        &lt;!&ndash;给指定的servlet类起一个名字&ndash;&gt;-->
+<!--        <servlet-name>helloServlet</servlet-name>-->
+<!--        &lt;!&ndash;servlet类的全限定路径&ndash;&gt;-->
+<!--        <servlet-class>com.it.controller.HelloServlet</servlet-class>-->
+<!--        &lt;!&ndash;servlet初始化加载优先级(0~10)&ndash;&gt;-->
+<!--        <load-on-startup>0</load-on-startup>-->
+<!--    </servlet>-->
+
+<!--    &lt;!&ndash;创建servlet映射标签&ndash;&gt;-->
+<!--    <servlet-mapping>-->
+<!--        &lt;!&ndash;映射到哪个servlet，与上面一致&ndash;&gt;-->
+<!--        <servlet-name>helloServlet</servlet-name>-->
+<!--        &lt;!&ndash;客户端访问路径 localhost:8080/项目名称/demo&ndash;&gt;-->
+<!--        <url-pattern>/test2/hello.view</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+
+
+
+<!--    <welcome-file-list>-->
+<!--        <welcome-file>demo.html</welcome-file>-->
+<!--        <welcome-file>demo.htm</welcome-file>-->
+<!--        <welcome-file>demo.jsp</welcome-file>-->
+<!--    </welcome-file-list>-->
+
+
+
+</web-app>
