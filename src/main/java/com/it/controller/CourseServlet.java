@@ -31,6 +31,7 @@ public class CourseServlet extends HttpServlet {
         System.out.println("hello git-01");
         System.out.println("hello git-02");
         System.out.println("git push-test");
+        System.out.println("git pull-test");
         if("张三".equals(name)&&"123".equals(password)){
             req.setAttribute("name",name);
             req.setAttribute("password",password);
